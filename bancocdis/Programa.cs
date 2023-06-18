@@ -76,7 +76,7 @@ void CreateUser()
 
     storage.AddUser(newUser);
 
-    Console.WriteLine("Usuario creado.");
+    Console.WriteLine("Usuario creado correctamente.");
     Thread.Sleep(2000);
     ShowMenu();
 }
