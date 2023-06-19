@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damia\\CursoNET\\bancocdis\\bancocdis\\bancocdis.csproj": {}
+    "C:\\Users\\damia\\OneDrive\\Escritorio\\BankConsole\\bancocdis\\bancocdis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damia\\CursoNET\\bancocdis\\bancocdis\\bancocdis.csproj": {
+    "C:\\Users\\damia\\OneDrive\\Escritorio\\BankConsole\\bancocdis\\bancocdis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\CursoNET\\bancocdis\\bancocdis\\bancocdis.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\OneDrive\\Escritorio\\BankConsole\\bancocdis\\bancocdis.csproj",
         "projectName": "bancocdis",
-        "projectPath": "C:\\Users\\damia\\CursoNET\\bancocdis\\bancocdis\\bancocdis.csproj",
+        "projectPath": "C:\\Users\\damia\\OneDrive\\Escritorio\\BankConsole\\bancocdis\\bancocdis.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\CursoNET\\bancocdis\\bancocdis\\obj\\",
+        "outputPath": "C:\\Users\\damia\\OneDrive\\Escritorio\\BankConsole\\bancocdis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config"

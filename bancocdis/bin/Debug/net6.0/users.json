@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "TaxRegime": "M",
+    "ID": 1,
+    "Name": "grecia",
+    "Email": "grecia@gmail.com",
+    "Balance": 3869.88,
+    "RegisterDate": "2023-06-18T18:24:29.8370405-06:00"
+  },
+  {
+    "Department": "MGM",
+    "ID": 2,
+    "Name": "daniel",
+    "Email": "daniel@gmail.com",
+    "Balance": 23948.0,
+    "RegisterDate": "2023-06-18T18:25:06.7870141-06:00"
+  }
+]

@@ -57,6 +57,11 @@ public static class storage
         return newUsersList;
     }
 
+   public static bool UserExists(int userID)
+    {
+        var listUsers = GetNewUsers();
+        return listUsers.Any(user=> user.GetID()==userID);
+    }
     public static string DeleteUser(int ID)
     {
        
@@ -84,9 +89,11 @@ public static class storage
 
             listUsers.Add(newUser);
         }
-        var userToDelete = listUsers.Where(user => user.GetID() == ID).Single();
+        var userToDelete = listUsers.SingleOrDefault(user => user.GetID() == ID);
 
-        listUsers.Remove(userToDelete);
+    if(userToDelete !=null)
+    {
+         listUsers.Remove(userToDelete);
 
         JsonSerializerSettings settings = new JsonSerializerSettings {Formatting = Formatting.Indented};
 
@@ -96,4 +103,8 @@ public static class storage
 
         return "Success";
     }
+    return "No se encontro un usuario con ese ID";
+       
+    }
+ 
 }
